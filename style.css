@@ -1,0 +1,31 @@
+.low{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.Lowest{
+    background-color: white;
+   
+}
+.Low{
+    background-color: rgb(232, 232, 243);
+   
+}
+.Medium{
+background-color: rgb(191, 191, 226);
+
+}
+.High{
+    background-color: rgb(127, 127, 191);
+   
+}
+.Highest{
+    background-color: rgb(94, 94, 182);
+    }
+    
+    .label{
+        font-size: larger;
+        font-weight: bold;
+    }

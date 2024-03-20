@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <label class="label" for="task">Task           :</label>   <input type="text" id="task" placeholder="Task Name"><br><br>
+ <label class="label for="Periorty">Periorty    : </label> <select  id="Periorty" value="Select Periority" aria-placeholder="Select Periority">
+    <option value="Lowest">Lowest</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+    <option value="Highest">Highest</option>
+ </select>
+ <br><br>
+<label  class="label" for="d"     >Date of Periorty  :</label><input type="date" id="d"><br><br>
+<textarea name="Description" cols="30" rows="10" placeholder="Description"></textarea><br><br>
+<button class="label" id="save">save</button>
+<br><br>
+<div style="border: 5px solid rgb(222, 133, 133);" >
+  <div><div class="low">
+    <div>Taskname</div>
+    <div>Periority</div>
+    <div>Date</div>
+  </div>
+  </div> 
+
+<div id="container"></div></div>
+<button   id="clear" onclick="toDoList.RemoveAll();">Remove All Tasks</button>
+
+
+<script src="script.js"></script>
+</body>
+</html>
